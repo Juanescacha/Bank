@@ -5,7 +5,7 @@ import GetStarted from "./GetStarted"
 const Hero = () => (
 	<section
 		id="home"
-		className={`${styles.paddingX} flex md:flex-row flex-col ${styles.paddingY}`}>
+		className={`flex md:flex-row flex-col ${styles.paddingY}`}>
 		<div
 			className={`flex-1 ${styles.flexStart} flex-col xl:px-0 ${styles.paddingX}`}>
 			<div className="flex items-center py-[6px] px-4 bg-discount-gradient rounded-xl mb-2">
