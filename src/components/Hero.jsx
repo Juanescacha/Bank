@@ -40,11 +40,11 @@ const Hero = () => (
 			</p>
 		</div>
 		<div
-			className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
+			className={`flex-1 ${styles.flexCenter} md:my-0 my-10 relative -right-16`}>
 			<img
 				src={robot}
 				alt="billing"
-				className="relative w-full h-full z-[5]"
+				className="relative w-full z-[5]"
 			/>
 			<div className="absolute z-[0] w-2/5 h-[35%] top-0 pink__gradient" />
 			<div className="absolute z-[1] w-4/5 h-4/5 rounded-full bottom-40 white__gradient" />
