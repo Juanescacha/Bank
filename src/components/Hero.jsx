@@ -20,7 +20,7 @@ const Hero = () => (
 					Account
 				</p>
 			</div>
-			<div className="flex items-center justify-between w-ful">
+			<div className="flex items-center justify-between w-full">
 				<h1 className="flex-1 text-[52px] ss:text-[72px] text-white font-semibold font-poppins ss:leading-[100px] leading-[75px]">
 					The Next <br className="hidden sm:block" />
 					<span className="text-gradient">Generation</span>
@@ -39,12 +39,11 @@ const Hero = () => (
 				percentage rates, annual fees.
 			</p>
 		</div>
-		<div
-			className={`flex-1 ${styles.flexCenter} md:my-0 my-10 relative -right-16`}>
+		<div className={`flex-1 ${styles.flexCenter} md:my-0 my-10 relative`}>
 			<img
 				src={robot}
 				alt="billing"
-				className="relative w-full z-[5]"
+				className="w-full z-[5]"
 			/>
 			<div className="absolute z-[0] w-2/5 h-[35%] top-0 pink__gradient" />
 			<div className="absolute z-[1] w-4/5 h-4/5 rounded-full bottom-40 white__gradient" />
