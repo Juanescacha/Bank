@@ -4,7 +4,8 @@ import { feedback } from "../constants"
 import FeedbackCard from "./FeedbackCard"
 
 const Testimonials = () => (
-	<section>
+	<section className="relative">
+		<div className="absolute z-[0] w-3/5 h-3/5 -right-1/2 rounded-full blue__gradient" />
 		<div className={`${layout.section}`}>
 			<div className={`${layout.sectionInfo}`}>
 				<h1 className={`${styles.heading2}`}>
@@ -12,7 +13,6 @@ const Testimonials = () => (
 					<br className="hidden sm:block" /> saying about us.
 				</h1>
 			</div>
-
 			<div
 				className={`flex flex-1 justify-start items-center md:ml-10 ml-0 md:mt-0 mt-10 relative`}>
 				<p
@@ -23,7 +23,7 @@ const Testimonials = () => (
 			</div>
 		</div>
 		<div
-			className={`${layout.section} justify-center gap-10 relative z-[1] items-stretch`}>
+			className={`${layout.section} justify-start gap-10 relative z-[1] items-stretch flex-wrap`}>
 			{feedback.map((item, index) => (
 				<FeedbackCard
 					key={item.id}

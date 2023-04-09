@@ -3,7 +3,7 @@ import styles from "../styles"
 
 const FeedbackCard = ({ id, name, content, title, img, index }) => (
 	<div
-		className={`basis-full feedback-card rounded-[20px] py-10 flex-col gap-10 flex justify-center items-start px-12`}>
+		className={`basis-full feedback-card rounded-[20px] py-10 flex-col gap-10 flex justify-between items-start px-12 max-w-[370px]`}>
 		<img
 			src={quotes}
 			alt="quotes"
@@ -12,17 +12,17 @@ const FeedbackCard = ({ id, name, content, title, img, index }) => (
 		<p className="text-lg font-normal leading-[32px] text-white font-poppins">
 			{content}
 		</p>
-		<div className="flex items-center w-full gap-5">
+		<div className="flex items-center w-full gap-4">
 			<img
 				src={img}
-				alt="img"
-				className="object-contain w-[48px] h-[48px]"
+				alt={name}
+				className="object-contain w-[48px] h-[48px] rounded-full"
 			/>
 			<div className="flex flex-col w-full">
-				<h4 className="text-xl font-normal text-white font-poppins">
+				<h4 className="text-xl font-semibold leading-8 text-white font-poppins">
 					{name}
 				</h4>
-				<p className="text-base font-normal font-poppins text-dimWhite">
+				<p className="text-base font-normal leading-6 font-poppins text-dimWhite">
 					{title}
 				</p>
 			</div>
