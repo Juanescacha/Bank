@@ -22,8 +22,7 @@ const Testimonials = () => (
 				</p>
 			</div>
 		</div>
-		<div
-			className={`${layout.section} justify-start gap-10 relative z-[1] items-stretch flex-wrap`}>
+		<div className="flex xl:justify-center justify-start gap-10 relative z-[1] items-stretch flex-wrap">
 			{feedback.map((item, index) => (
 				<FeedbackCard
 					key={item.id}
