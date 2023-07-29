@@ -18,12 +18,11 @@ const App = () => {
 			<div className={`${styles.paddingX} ${styles.flexCenter} relative`}>
 				<div
 					className={`w-full z-50 bg-primary/0 backdrop-blur-xl fixed top-0 sm:px-32 px-12`}>
-					{/* className={`w-full z-50 bg-primary/0 backdrop-blur-xl top-0 ${styles.paddingX}`}> */}
 					<Navbar />
 				</div>
 			</div>
 
-			<div className={`${styles.flexStart} mt-10 bg-primary`}>
+			<div className={`${styles.flexStart} sm:mt-10 mt-20 bg-primary`}>
 				<div className={`${styles.boxWidth}`}>
 					<Hero />
 				</div>
