@@ -139,6 +139,6 @@
 }
 
 .white__gradient {
-	background: rgba(255, 255, 255, 0.6);
-	filter: blur(750px);
+	background: rgba(255, 255, 255, 0.3);
+	filter: blur(150px);
 }
